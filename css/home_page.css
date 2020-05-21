@@ -1,0 +1,92 @@
+/** 
+ * TLInternship2020
+ * May 20, 2020
+ *
+ * Summary. 
+ * This file contains the CSS code to transform the style and layout of the page.
+ *
+ * Description.
+ * Specifically, this file contains the CSS code to standardize the text font and size, color scheme,
+ * and layout of the search pages.
+ *
+ * @file   home_page.css.
+ */
+
+/* CSS to update the style of the body, headers, buttons, and text of search pages */
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background-color: #b7d2e4;
+}
+
+h2, h3, h4, h5 {
+  color: black;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  color: black;
+}
+
+#main {
+  float: left;
+}
+
+
+/* CSS for the misinformation button */
+#search-button {
+  background-color: #1f3553;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#search-button:hover {
+  opacity: 0.8;
+}
+
+/* Extra CSS */
+h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input {
+  margin-left: 25%;
+}
+
+#targetTempo {
+  margin-left: 250px;
+}
+
+.page-title {
+  margin-left: 32%;
+}
+
+#notice {
+  width: 80%;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.info .body {
+  width: 80%;
+  padding: 10px 0px 0px 10px;
+}
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

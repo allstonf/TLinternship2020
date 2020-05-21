@@ -1,0 +1,49 @@
+<!-- 
+  TLInternship2020
+  May 20, 2020
+
+  File Name:      index.html 
+  Description:    This file allows users to enter misinformation.
+-->
+
+<html>
+  <!-- contains CSS, JQuery references -->
+  <head>
+    <title>Misinformation Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/home_page.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.js"></script>
+  </head>
+
+  <!-- contains text box and button -->
+  <body>
+    <div class="info">
+      <div id="notice"></div>
+      <div class="body">
+
+        <!-- enter misinformation -->
+        <div class="inline input">
+          <h2 class="page-title">Misinformation Tracker</h2>
+          <h4 class="required-field">Enter your misinformation</h4>
+          <input id="targetTempo" type="text" size="20" />
+          <button type="button" class="btn btn-aubergine" id="search-button" data-dismiss="modal" onclick="enterMisinformation();">Enter misinformation</button>
+        </div>
+      </div>
+    </div> 
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- // <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- // <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script> -->
+
+    <script src="js/client_misinformation.js"></script>
+  </body>
+</html>
