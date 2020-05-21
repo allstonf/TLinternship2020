@@ -1,6 +1,4 @@
 # Misinformation Tracker
-describes the sub-problem, the solution approach, any
-libraries/packages you are using as dependencies, and how to run your code.
 
 ___Sub-Problem___
 I created a web app for users to report misinformation and hate speech content to TrustLab that is added to Firebase and can later be added to the data store.
