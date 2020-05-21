@@ -14,4 +14,4 @@ I am using JQuery and Bootstrap on the front-end and the Python Firebase package
 
 ___How to run my code___
 
-Open index.html to go to the web app. Then, run the notebook to perform data analysis.
+Go to https://allstonf.github.io/TLinternship2020/ to access the web app. Then, run the notebook to perform data analysis.
